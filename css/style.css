@@ -143,12 +143,49 @@ li {
 
 .problems h2,
 .solution h2 {
-  font-size: 36px;
+  font-size: 40px;
 }
 
 .solution {
   display: flex;
+  gap: 60px;
   align-items: center;
+  justify-content: center;
+  padding: 60px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 120px;
+}
+
+.solution img {
+  max-width: 420px;
+}
+
+.solution > div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.solution ul {
+  list-style: none;
+  padding: 0;
+  margin: 24px 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.solution ul li {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  text-align: left;
+}
+
+.solution ul li img {
+  margin-top: 2px;
 }
 
 .subtitle {
